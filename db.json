@@ -3,36 +3,45 @@
  	{
    	"id": 1,
    	"name": "Blooey Healer",
-   	"email": "blooey.7@yahoo.com
+   	"email": "blooey.7@yahoo.com",
+   "itemId": "2"   
  	},
  	{
    	id": 2,
    	"name": "chilly Healer",
-   	"email": "chilly&blooey.7@yahoo.com
+   	"email": "chilly&blooey.7@yahoo.com",
+      "itemId": "2"
  	},
  	{
    "items": [
  	{
    	"@context": "https://schema.org",
    	"@type": "CreativeWork",
-   	"id": "1-1",
+   	"id": "1",
    	"name": "Understanding API",
    	"description": "Keep it simple silly guide to JSON"
  	},
  	{
    	"@context": "https://schema.org",
    	"@type": "CreativeWork",
-   	"id": "1-2",
+   	"id": "2",
    	"name": "API Steps",
    	"description": "Steps for Understanding API"
  	},
  	{
    	"@context": "https://schema.org",
    	"@type": "CreativeWork",
-   	"id": "1-3",
+   	"id": "3",
    	"name": "Understanding GitHub",
    	"description": "A series of guidelines to be creative using GitHub"
  	},
  	],
-   	"collection": {
-   	"description": "This JSON file is a list of users and items related to programming and topics."
+"collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "kylea'sAPI",
+    "creator": "kyleajacobs",
+    "about": "This JSON file is a list of users and items related to programming and topics.",
+    "url": "https://www.jasonclark.info"
+  }
+  }
