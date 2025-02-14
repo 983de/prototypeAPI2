@@ -12,7 +12,8 @@
    	"email": "chilly&blooey.7@yahoo.com",
       "itemId": "2"
  	},
- 	{
+   ]
+      {
    "items": [
  	{
    	"@context": "https://schema.org",
